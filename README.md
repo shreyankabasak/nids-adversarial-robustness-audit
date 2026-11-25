@@ -38,5 +38,5 @@ All reproducible evaluation metrics and attribution tables are exported to [`res
 
 | Contributor | GitHub | Core Responsibilities |
 | :--- | :--- | :--- |
-| **Aditi Maharor** | [@aditi-io](https://github.com/aditi-io) | End-to-end engineering pipeline: batch-safe Parquet ingestion & deduplication (`01_ingest_and_split.py`), consistency-preserving temporal perturbation engine (`02_perturbation_engine.py`), M1–M5 model training & OOD robustness evaluation (`03_train_models.py`), and SHAP attribution drift audit & plots (`04_shap_audit.py`). |
-| **Shreyanka Basak** | [@shreyankabasak](https://github.com/shreyankabasak) | Repository initialization, dependency specification (`requirements.txt`), project report, and formal documentation. |
+| **Aditi Maharor** | [@aditi-io](https://github.com/aditi-io) | **Core ML & Adversarial Pipeline Engineering:** Batch-safe Parquet ingestion, deduplication, and leak-free splitting (`01_ingest_and_split.py`), algebraic consistency-preserving perturbation engine (`02_perturbation_engine.py`), M1–M5 LightGBM robustness benchmarking (`03_train_models.py`), and SHAP drift diagnostic automation (`04_shap_audit.py`). |
+| **Shreyanka Basak** | [@shreyankabasak](https://github.com/shreyankabasak) | **System Architecture, Empirical Analysis & Reporting:** Repository architecture and dependency management (`requirements.txt`), comparative OOD evaluation analysis, SHAP feature-drift interpretation, technical documentation, and final project report synthesis. |
