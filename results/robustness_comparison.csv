@@ -1,0 +1,6 @@
+Model,Clean_Macro_F1,Perturbed_Macro_F1,F1_Drop,Clean_Attack_Recall,Perturbed_Attack_Recall,Attack_Recall_Drop
+M1_Standard_LGBM,0.9695,0.9623,0.0072,0.9992,0.9992,0.0
+M2_CostSensitive_LGBM,0.9733,0.9801,-0.0069,0.9992,0.9992,0.0
+M3_TimingAblated_LGBM,0.9819,0.9819,0.0,0.9992,0.9992,0.0
+M4_AdversarialTrained_LGBM,0.9746,0.9764,-0.0018,0.9992,0.9992,0.0
+M5_SHAP_InvariantRatio_LGBM,0.9819,0.9819,0.0,0.9992,0.9992,0.0
